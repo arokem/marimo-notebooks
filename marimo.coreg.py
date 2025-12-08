@@ -67,11 +67,15 @@ def _(NiiVue, ShowRender, mo):
         on_change=lambda v: setattr(nv.volumes[2], "opacity", v),
     )
 
+    def save_bitmap(_):
+        nv.save_scene("coreg.png")
+
+    button = mo.ui.button(label="Save Bitmap", on_click=save_bitmap)
 
     ## Display user interface and volumes
 
     mo.vstack([
-        mo.hstack([slider_template, slider_coreg, slider_outline]),
+        mo.hstack([slider_template, slider_coreg, slider_outline, button]),
         nv,
     ])
     return
