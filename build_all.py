@@ -159,9 +159,9 @@ NAV_SCRIPT = r'''
 CHOOSER_TEMPLATE = """<!doctype html>
 <html>
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>niivue examples</title>
+<title>niivue marimo examples</title>
 <style>body {{font-family:system-ui,Arial;padding:2rem}} .card {{border:1px solid #ddd;padding:1rem;border-radius:8px;margin-bottom:1rem}} a.btn {{background:#0366d6;color:#fff;padding:.5rem .8rem;border-radius:6px;text-decoration:none}}</style>
-</head><body><h1><a class="btn" href="https://github.com/neurolabusc/ipyniivue-marimo-test">niivue marimo examples</a></h1>{cards}</body></html>
+</head><body><h1><a class="btn" href="https://github.com/niivue/marimo-notebooks">niivue marimo examples</a></h1>{cards}</body></html>
 """
 
 def shortname(p: Path):
