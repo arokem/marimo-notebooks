@@ -28,11 +28,11 @@ Open notebook in edit mode:
 git clone https://github.com/niivue/marimo-notebooks.git
 cd marimo-notebooks
 pip install uv
-uv run marimo edit marimo.vox.py
+uv run marimo marimo-notebooks/edit marimo.vox.py
 # alternatively, for mesh-based example
-# uv run marimo edit marimo.mesh.py
+# uv run marimo edit marimo-notebooks/marimo.mesh.py
 # alternatively, for coregistration example
-# uv run marimo edit marimo.coreg.py
+# uv run marimo edit marimo-notebooks/marimo.coreg.py
 ```
 
 Export single notebook as WASM+HTML website:
