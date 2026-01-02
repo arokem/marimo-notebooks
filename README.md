@@ -25,7 +25,7 @@ You can run fork and run this live demo using a Github or Google log in.
 Open notebook in edit mode:
 
 ```sh
-git clone https://github.com:niivue/marimo-notebooks.git
+git clone https://github.com/niivue/marimo-notebooks.git
 cd ipyniivue-marimo-test
 pip install uv
 uv run marimo edit marimo.vox.py
