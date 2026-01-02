@@ -26,7 +26,7 @@ Open notebook in edit mode:
 
 ```sh
 git clone https://github.com/niivue/marimo-notebooks.git
-cd ipyniivue-marimo-test
+cd marimo-notebooks
 pip install uv
 uv run marimo edit marimo.vox.py
 # alternatively, for mesh-based example
